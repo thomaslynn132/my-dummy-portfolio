@@ -8,12 +8,9 @@ import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import {
-  Calendar,
   Instagram,
   Twitter,
   Facebook,
-  ChevronLeft,
-  ChevronRight,
   Send,
   MessageCircle,
   Phone,
@@ -100,7 +97,6 @@ export default function DeveloperPortfolio() {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Header */}
       <motion.header
         className="flex items-center justify-between p-6"
         initial={{ opacity: 0, y: -20 }}
@@ -126,7 +122,6 @@ export default function DeveloperPortfolio() {
         </Button>
       </motion.header>
 
-      {/* Hero Section */}
       <section
         className="relative px-6 py-20"
         style={{
@@ -137,7 +132,6 @@ export default function DeveloperPortfolio() {
         }}>
         <div className=" ">
           <div className="flex flex-col items-start justify-between">
-            {/* Social Icons */}
             <motion.h1
               className="text-4xl md:text-6xl lg:text-[70px] font-bold leading-tight mb-8"
               initial={{ opacity: 0, y: 30 }}
@@ -175,7 +169,6 @@ export default function DeveloperPortfolio() {
                   <div className="h-[45px] w-[2px] ml-3 bg-black"></div>
                 </motion.div>
               </div>
-              {/* Main Content */}
               <div className="flex-1 ">
                 <motion.p
                   className="text-lg mb-8 "
@@ -203,7 +196,6 @@ export default function DeveloperPortfolio() {
         </div>
       </section>
 
-      {/* Skills Section */}
       <section className="bg-black text-white py-20 px-20 mx-6 rounded-3xl">
         <div className="mx-auto">
           <div className="flex items-center justify-between mb-12">
@@ -283,8 +275,6 @@ export default function DeveloperPortfolio() {
           </motion.div>
         </div>
       </section>
-
-      {/* Experience Section */}
       <section
         className="py-20 px-20"
         style={{
@@ -387,7 +377,6 @@ export default function DeveloperPortfolio() {
         </div>
       </section>
 
-      {/* Work Process Section */}
       <section className="bg-[#141414] rounded-3xl  text-white m-12 py-24 px-12">
         <div className="p-20 mx-auto">
           <div className="mb-12">
@@ -417,7 +406,6 @@ export default function DeveloperPortfolio() {
         }
       `}
                 variants={fadeInUp}>
-                {/* Badge Header */}
                 <div
                   className={`
           
@@ -437,7 +425,6 @@ export default function DeveloperPortfolio() {
                   </Button>
                 </div>
 
-                {/* Description */}
                 <div className="flex-1">
                   <p
                     className={`${
@@ -452,7 +439,6 @@ export default function DeveloperPortfolio() {
         </div>
       </section>
 
-      {/* Contact Section */}
       <section
         style={{
           backgroundImage: "url('/section3Bg.png')",
@@ -557,7 +543,6 @@ export default function DeveloperPortfolio() {
         </div>
       </section>
 
-      {/* Footer */}
       <footer className="bg-black text-white py-12 px-6">
         <div className=" mx-auto p-20">
           <div className="grid md:grid-cols-4 gap-8">
